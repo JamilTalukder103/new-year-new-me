@@ -128,10 +128,39 @@ section{
 }
 /* mind set section end */
 
+/* blog section start */
+  .my-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog-title{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .blog-description{
+    margin-top: 20px;
+    color: #6b6464;
+  }
+  .my-blog img{
+    width: 50%;
+  }
+  .read-btn{
+    background-color: blue;
+    padding: 10px 20px;
+    font-size: 20px;
+    border:none;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 20px;
+  }
+/* blog section end */
+
 /* footer section style */
 footer{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #000;
     height: 400px;
     margin: 0 auto;
@@ -148,6 +177,7 @@ footer{
 }
 .future-description{
     margin-top: 20px;
+    color: #c5bebe;
 }
 .email, .phone, .social-media{
     margin-top: 20px;
@@ -166,5 +196,8 @@ footer{
     border-radius: 7px;
     margin-top: 10px;
 }
+
+
+
 
 
