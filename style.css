@@ -98,3 +98,73 @@ section{
     font-size: 25px;
     margin: 10px 0;
 }
+/* my plans section end */
+
+/* mind set section start */
+.mind-set{
+    background-image:url(images/gradient1.png),url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  
+}
+.mind-set-content{
+    margin-left: 40px;
+}
+.mind-set-title{
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+}
+.call-now-btn{
+    background-color: #fff;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+/* mind set section end */
+
+/* footer section style */
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    height: 400px;
+    margin: 0 auto;
+    color: #fff;
+    padding:0 100px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.future-container{
+    display: flex;
+    gap:200px;  
+}
+.future-description{
+    margin-top: 20px;
+}
+.email, .phone, .social-media{
+    margin-top: 20px;
+}
+.input-field{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.subscribe-btn{
+    padding: 10px 20px;
+    border:none;
+    font-size: 20px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+
